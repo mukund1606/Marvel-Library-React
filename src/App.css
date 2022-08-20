@@ -1,0 +1,67 @@
+.banner {
+  padding: 30px;
+  background-color: lightgreen;
+}
+
+.App {
+  height: 100vh;
+  background-color: lightgray;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  color: #443d3d;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+
+}
+
+.avengers {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.avenger {
+  border-radius: 25px;
+  padding: 30px;
+  padding-bottom: 0;
+  width: 20%;
+  background-color: lightpink;
+}
+
+.avenger-image {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.avenger-name {
+  color: #443d3d;
+  font-weight: 550;
+  padding: 0;
+  margin: 0;
+}
+
+.avenger-realname {
+  padding: 0;
+  margin: 0;
+  color: #443d3d;
+  font-weight: 450;
+}
+
+@media (max-width: 480px) {
+  .avenger {
+    border-radius: 25px;
+    padding: 30px;
+    padding-bottom: 0;
+    width: 100%;
+    background-color: lightpink;
+  }
+}
