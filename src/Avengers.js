@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Avengers.css"
 
 function Avengers(props) {
 
@@ -32,7 +33,6 @@ function Avengers(props) {
             charname: "Thanos",
             imageURL: "https://i.pinimg.com/736x/e8/16/59/e81659c3ff56354819a45ca49b265a63.jpg",
             imagealt: "Thanos"
-
         }
     ]
 
