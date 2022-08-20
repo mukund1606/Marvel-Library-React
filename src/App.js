@@ -1,12 +1,20 @@
 import './App.css';
-import Avengers from './Avengers';
+import Avenger from './Avenger';
+import avengers_data from './Resources/avengers.json';
 
 function App() {
+    let avengers = avengers_data.data;
     return (
-        <div className='App'>
+        <>
             <h1 className='header'>Marvel Library</h1>
-            <Avengers />
-        </div >
+            <div className='avengers'>
+                {avengers.map((avenger, index) => {
+                    return (
+                        <Avenger key={index} avenger_data={avenger} />
+                    )
+                })}
+            </div>
+        </>
     );
 }
 
