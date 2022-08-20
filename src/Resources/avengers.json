@@ -22,19 +22,19 @@
             "name": "Captain America",
             "charname": "Steve Rogers",
             "imageURL": "https://i.pinimg.com/564x/09/29/eb/0929ebfc354683eb818fc143d23f9bf3.jpg",
-            "imagealt": "Captain America"
+            "imgalt": "Captain America"
         },
         {
             "name": "Thanos",
             "charname": "Thanos",
             "imageURL": "https://i.pinimg.com/736x/e8/16/59/e81659c3ff56354819a45ca49b265a63.jpg",
-            "imagealt": "Thanos"
+            "imgalt": "Thanos"
         },
         {
             "name": "Hulk",
             "charname": "Bruce Banner",
             "imageURL": "https://i.pinimg.com/564x/a8/a4/75/a8a475f6fd643419d403b3a84419e80b.jpg",
-            "imagealt": "Hulk"
+            "imgalt": "Hulk"
         }
     ]
 }
