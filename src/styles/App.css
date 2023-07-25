@@ -1,0 +1,110 @@
+body {
+  background-color: lightgray;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.header {
+  color: #443d3d;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.avengers {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .avengers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .avengers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .avengers {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.head-element {
+  position: relative;
+}
+
+.create-element {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  cursor: pointer;
+  width: 50px;
+  background-color: #443d3d;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.create-button {
+  color: #d3d3d3;
+  width: 40px;
+  height: 40px;
+}
+
+.create-button:hover {
+  color: #fff;
+}
+
+.add-element {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  background-color: #ffb6c1;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 8px;
+}
+
+.add-element input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #443d3d;
+}
+
+.add-element input:focus {
+  outline: none;
+}
+
+.add-element input::placeholder {
+  color: #443d3d;
+}
+
+.add-element button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #443d3d;
+  background-color: #443d3d;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-element button:hover {
+  background-color: #fff;
+  color: #443d3d;
+}
